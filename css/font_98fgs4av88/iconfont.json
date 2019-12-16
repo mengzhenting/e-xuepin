@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1301393",
+      "name": "语音",
+      "font_class": "yuyin",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "3205015",
+      "name": "五角星",
+      "font_class": "wujiaoxing-",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "8820131",
+      "name": "举报",
+      "font_class": "jubao",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    },
+    {
+      "icon_id": "9512706",
+      "name": "点赞",
+      "font_class": "thumbup",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    }
+  ]
+}

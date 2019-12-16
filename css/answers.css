@@ -1,0 +1,405 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color          : #545454;
+    text-decoration: none;
+    /* display     : block;
+    width          : 100%;
+    height         : 100%; */
+}
+
+/* ===================reset style end======================= */
+.wrapper {
+    width : 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height             : 90px;
+    /* background-color: rgb(234, 238, 24); */
+}
+
+header .logo {
+    margin-right: 105px;
+    float       : left;
+    margin-top  : 18px;
+}
+
+header .navigator li {
+    margin    : 0 10px;
+    text-align: center;
+    width     : 80px;
+    float     : left;
+}
+
+header .navigator {
+    overflow   : hidden;
+    float      : left;
+    line-height: 90px;
+}
+
+header .navigator a.active {
+    color        : #252525;
+    font-weight  : bold;
+    border-bottom: 3px solid #9bc604;
+}
+
+header .navigator a:hover {
+    color           : #252525;
+    font-weight     : bold;
+    /* border-bottom: 3px solid #9bc604; */
+}
+
+header .navigator a {
+    display   : block;
+    color     : #545454;
+    height    : 85px;
+    box-sizing: border-box;
+}
+
+header .login {
+    padding-right: 28px;
+    color        : #999;
+    float        : right;
+    line-height  : 90px;
+}
+
+header .login a {
+
+    padding: 0 12px;
+    color  : inherit;
+}
+
+/* --------------------搜索栏-------------------------------- */
+.search-wrapper {
+    width          : 100%;
+    line-height    : 162px;
+    box-sizing     : border-box;
+    height         : 162px;
+    background-size: contain;
+    background     : url("./image/answersimg/an1.jpg") no-repeat center #050505;
+}
+
+.search-wrapper .search-body {
+    font-size    : 0;
+    border-radius: 3px;
+    /* 没宽度的居中 */
+    width        : 847px;
+    height       : 44px;
+    margin       : 0 auto;
+    /* box-shadow: 2px 2px 3px 6px rgb(0, 0, 0,0.4); */
+}
+
+.search-wrapper .search-body .search-layout {
+    background : #ededed;
+    height     : 44px;
+    line-height: 44px;
+    display    : inline-block;
+    font-size  : 16px;
+    text-align : center;
+}
+
+.search-wrapper .search-body .input-wrapper {
+    border-top-left-radius   : 6px;
+    border-bottom-left-radius: 6px;
+    width                    : 450px;
+
+}
+
+.search-wrapper .search-body .input-wrapper input {
+    height : 100%;
+    width  : 100%;
+    outline: none;
+    border : none;
+    /* 让字体向右20像素 */
+    text-indent  : 20px;
+    transform    : translateY(-2px);
+    border-radius: 6px;
+}
+
+.search-wrapper .search-body .btn-search {
+    background                : #9bc604;
+    width                     : 192px;
+    color                     : #fff;
+    line-height               : 44px;
+    text-align                : center;
+    cursor                    : pointer;
+    border-top-right-radius   : 6px;
+    border-bottom-right-radius: 6px;
+
+}
+
+.search-wrapper .search-body .search-answers {
+    border-radius: 6px;
+    background   : #FF8D00;
+    display      : inline-block;
+    width        : 192px;
+    color        : #fff;
+    font-size    : 15px;
+    line-height  : 44px;
+    text-align   : center;
+    cursor       : pointer;
+    margin-left  : 10px;
+}
+
+/* ---------------------最新问题---------------------------- */
+
+.section-wrapper {
+    width : 1200px;
+    margin: 0 auto;
+}
+
+.section-wrapper::after {
+    content: "";
+    display: block;
+    clear  : both;
+}
+
+.section-wrapper .e-class-title {
+    margin-top         : 30px;
+    /* background-color: #f5f8fa; */
+    height             : 40px;
+}
+
+.section-title .search-sizee {
+    font-weight      : bold;
+    line-height      : 40px;
+    color            : #DCDCDC;
+    height           : 40px;
+    /* padding-bottom: 10px; */
+    float            : left;
+    margin-right     : 75px;
+}
+
+.section-title .actives {
+    color        : black;
+    border-bottom: 2px solid #9bc604;
+    box-sizing   : border-box;
+}
+
+.section-title .search-sizee:hover {
+    color        : black;
+    border-bottom: 2px solid #9bc604;
+    box-sizing   : border-box;
+}
+
+
+
+.section-son {
+    float: right;
+
+    font-size: 18px;
+    color    : #FF8D00;
+}
+
+.section-person {
+    float      : right;
+    color      : #838383;
+    margin-left: 20px;
+    font-size  : 15px;
+}
+
+.section-why-list:hover {
+    box-shadow: 0px 0px 15px rgb(100, 92, 92);
+    transition: .4s linear;
+}
+
+
+
+
+
+
+
+
+
+
+.section-why {
+    margin-top   : 20px;
+    margin-right : -10px;
+    font-size    : 0;
+    margin-bottom: 30px;
+    float        : left;
+
+
+}
+
+.section-why .section-why-list {
+    box-sizing      : border-box;
+    border          : 1px solid #F5F5F5;
+    margin-bottom   : 10px;
+    margin-right    : 10px;
+    display         : inline-block;
+    width           : 870px;
+    height          : 110px;
+    background-color: #ffffff;
+}
+
+.section-why .section-why-list img {
+    margin: 20px 20px;
+    float : left;
+}
+
+.section-why .section-why-list .one-nodels {
+    margin-top: 15px;
+    font-size : 18px;
+}
+
+.section-why .section-why-list .one-nodels1 {
+    margin-top : 10px;
+    font-weight: bold;
+    color      : #999999;
+    font-size  : 15px;
+}
+
+.section-why .section-why-list .one-time {
+    font-size : 13px;
+    color     : #999999;
+    margin-top: 5px;
+}
+
+.section-why .section-why-list .one-look {
+    position: relative;
+}
+
+
+.section-why .section-why-list .one-look .eye {
+    position        : absolute;
+    top             : -14px;
+    left            : 254px;
+    width           : 20px;
+    height          : 11px;
+    display         : block;
+    background-color: #CCCCCC;
+    border-radius   : 50%;
+}
+
+.one-look .eye::after {
+    content         : "";
+    width           : 7px;
+    height          : 7px;
+    position        : absolute;
+    border-radius   : 50%;
+    background-color: #fff;
+    display         : block;
+    top             : 2px;
+    left            : 7px;
+}
+
+.section-why .section-why-list .one-look .eye-look {
+    position : absolute;
+    left     : 280px;
+    top      : -20px;
+    color    : #CCCCCC;
+    font-size: 15px;
+}
+
+.section-why .section-why-list .one-answer a {
+    font-size    : 15px;
+    display      : block;
+    height       : 35px;
+    width        : 110px;
+    border       : 1px solid #F5F5F5;
+    float        : right;
+    color        : #9bc604;
+    border-radius: 5px;
+    line-height  : 35px;
+    text-align   : center;
+    margin-top   : -55px;
+    margin-right : 20px;
+}
+
+.one-left {
+    float              : left;
+    width              : 900px;
+    /* height          : 1300px; */
+    /* background-color: black; */
+}
+
+.two-right img {
+    float     : right;
+    width     : 300px;
+    height    : 343px;
+    margin-top: 20px;
+}
+
+.number {
+    height             : 40px;
+    width              : 800px;
+    /* background-color: rgb(205, 205, 214); */
+    margin-left        : 160px;
+}
+
+.number .previous-page {
+    float        : left;
+    height       : 40px;
+    width        : 100px;
+    display      : block;
+    border       : 1px solid #CCCCCC;
+    text-align   : center;
+    line-height  : 40px;
+    font-size    : 14px;
+    color        : #9bc604;
+    margin-right : 10px;
+    border-radius: 5px;
+}
+
+.number .number-some {
+    width       : 10px;
+    height      : 40px;
+    float       : left;
+    text-align  : center;
+    line-height : 40px;
+    color       : #9bc604;
+    margin-right: 10px;
+}
+
+.number .number-page {
+    border-radius: 5px;
+    float        : left;
+    margin-right : 10px;
+    height       : 40px;
+    width        : 50px;
+    display      : block;
+    border       : 1px solid #CCCCCC;
+    color        : #9bc604;
+    text-align   : center;
+    line-height  : 40px;
+    font-size    : 14px;
+}
+
+.bottom {
+    height          : 120px;
+    width           : 100%;
+    background-color: black;
+    margin-top      : 20px;
+    text-align      : center;
+
+}
+
+.bottom p:first-child {
+    color         : #5F5F5F;
+    padding-top   : 30px;
+    padding-bottom: 14px;
+    font-size     : 13px;
+}
+
+.bottom p:last-child {
+    color    : #5F5F5F;
+    font-size: 14px;
+}
+
+.bottom p:last-child span {
+
+    margin: 0px 10px 0px 10px;
+}
+
+.bottom p:last-child a {
+    color: inherit;
+}

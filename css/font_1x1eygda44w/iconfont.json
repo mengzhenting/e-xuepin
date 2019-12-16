@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2019085",
+      "name": "位置",
+      "font_class": "weizhi",
+      "unicode": "e7ba",
+      "unicode_decimal": 59322
+    },
+    {
+      "icon_id": "7055635",
+      "name": "日历",
+      "font_class": "rili",
+      "unicode": "e72a",
+      "unicode_decimal": 59178
+    }
+  ]
+}

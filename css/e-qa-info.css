@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  color: #545454;
+  text-decoration: none;
+}
+.clearBoth::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  height: 90px;
+  box-shadow: 0px 0px 6px #717171;
+}
+header .logo {
+  margin-right: 105px;
+  float: left;
+  margin-top: 18px;
+}
+header .navigator {
+  overflow: hidden;
+  float: left;
+  line-height: 90px;
+}
+header .navigator li {
+  margin: 0 10px;
+  text-align: center;
+  width: 80px;
+  float: left;
+}
+header .navigator li .active {
+  color: #252525;
+  font-weight: bold;
+  border-bottom: 3px solid #9bc604;
+}
+header .navigator li a:hover {
+  color: #252525;
+  font-weight: bold;
+  /* border-bottom: 3px solid #9bc604; */
+}
+header .navigator li a {
+  display: block;
+  color: #545454;
+  height: 85px;
+  box-sizing: border-box;
+}
+header .login {
+  padding-right: 28px;
+  color: #999;
+  float: right;
+  line-height: 90px;
+}
+header .login a {
+  padding: 0 12px;
+  color: inherit;
+}
+.qa-info {
+  box-sizing: border-box;
+  border-right: 1px solid #ece8e8;
+  float: left;
+  width: 800px;
+  height: 1590px;
+}
+.qa-info .ask {
+  float: right;
+  margin-right: 40px;
+  color: #9BC607;
+}
+.qa-info .addqa {
+  width: 770px;
+}
+.qa-info .addqa p {
+  color: #000;
+}
+.qa-info .addqa span {
+  color: #9BC607;
+}
+.qa-info .addqa .answer {
+  position: relative;
+}
+.qa-info .addqa .answer span.cirles::after {
+  content: "";
+  top: -58px;
+  left: 4px;
+  position: absolute;
+  height: 56px;
+  width: 1px;
+  background-color: #ccc;
+}
+.qa-info .addqa .answer .time {
+  color: #ccc;
+  position: absolute;
+  display: inline-block;
+  left: 338px;
+  top: 42px;
+  content: "";
+}
+.qa-info .addqa .answer .times {
+  color: #999;
+  position: absolute;
+  display: inline-block;
+  right: 10px;
+  top: 42px;
+}
+.qa-info .addqa .answer .answaner {
+  line-height: 64px;
+  cursor: pointer;
+  position: absolute;
+  display: inline-block;
+  width: 246px;
+  height: 64px;
+  left: 80px;
+  top: 0;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 20px;
+  background-color: #9BC607;
+}
+.qa-info .addqa .answer .answaner .iconfont {
+  color: #fff;
+}
+.qa-info .addqa .answer .answaner .click {
+  color: #fff;
+  padding-left: 10px;
+}
+.qa-info .addqa .answer span.cirles {
+  position: relative;
+  border-color: #000;
+}
+.qa-info .addqa .answer span:first-child {
+  color: #000;
+  margin-left: 14px;
+}
+.qa-info .addqa .cirles {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid #9BC607;
+}
+.qa-info .list {
+  width: 770px;
+  margin-top: 50px;
+}
+.qa-info .list div {
+  width: 80px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #9BC607;
+}
+.qa-info .list ul {
+  margin-top: 30px;
+}
+.qa-info .list ul li {
+  margin: 20px 0;
+}
+.qa-info .list ul li a {
+  float: left;
+}
+.qa-info .list ul li span {
+  float: right;
+}
+.qa-info .wrapper-talk {
+  margin-top: 60px;
+  border: 1px solid #EDEDED;
+  width: 770px;
+  height: 286px;
+  box-sizing: border-box;
+}
+.qa-info .mytalk {
+  position: relative;
+  width: 768px;
+  height: 284px;
+  box-sizing: border-box;
+  border: 40px solid #FBFBFB;
+  border-bottom: 84px solid #FBFBFB;
+}
+.qa-info .mytalk .btn {
+  cursor: pointer;
+  bottom: -65px;
+  position: absolute;
+  border-radius: 10px;
+  width: 200px;
+  height: 44px;
+  background-color: #9BC607;
+  color: #ffff;
+  text-align: center;
+  line-height: 44px;
+}
+.qa-info .mytalk textarea {
+  box-sizing: border-box;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 14px 0 0 14px;
+  border: 1px solid #EDEDED;
+}
+.qa-info .qa-index {
+  width: 770px;
+  margin-top: 30px;
+  border-top: 2px solid #F5F5F5;
+}
+.qa-info .qa-index a {
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+.qa-info .qa-index a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.qa-info .qa-index .clearBoth {
+  margin-top: 28px;
+}
+.qa-info .qa-index .info-qa-detail {
+  margin-left: 22px;
+  float: left;
+}
+.qa-info .qa-index .info-qa-detail p:last-child {
+  margin-top: 42px;
+}
+.qa-info .qa-index .info-qa-detail p:last-child i {
+  padding-left: 10px;
+  font-style: normal;
+}
+.qa-info .qa-index .info-qa-detail p:last-child span {
+  padding-right: 26px;
+}
+.qa-info .qa-index .info-qa-detail .role {
+  color: #B5B5B5;
+  display: block;
+  margin-bottom: 38px;
+}
+.qa-info .qa-index .info-qa-detail .roles {
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+.qa-info .qa-index .info-qa-detail .roles span:first-child {
+  padding-right: 10px;
+}
+.qa-info .qa-index .info-qa-detail .roles span:last-child {
+  padding-left: 10px;
+}
+.qa-info .qa-index .info-qa-detail .roles span {
+  color: #000;
+}
+.qa-info .qa-index .info-qa-detail .roles .report {
+  float: right;
+  color: #999;
+}
+.qa-info .qa-index .info-qa-detail p {
+  width: 670px;
+  padding: 0;
+}
+.qa-info h2 {
+  font-size: 24px;
+  margin-top: 48px;
+}
+.qa-info h2 span {
+  font-size: 20px;
+  color: #9BC607;
+}
+.qa-info p {
+  color: #717171;
+  padding-top: 18px;
+  padding-bottom: 28px;
+}
+.qa-info span {
+  font-size: 15px;
+  color: #ABABAB;
+}
+.relative-qa {
+  width: 400px;
+  float: right;
+  margin-top: 50px;
+}
+.relative-qa .wrapper-relative {
+  width: 382px;
+  margin-left: 20px;
+}
+.relative-qa .wrapper-relative a {
+  display: block;
+  width: 383px;
+  height: 200px;
+}
+.relative-qa .wrapper-relative a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.relative-qa .wrapper-relative .relative-request {
+  margin-top: 34px;
+}
+.relative-qa .wrapper-relative .relative-request .title {
+  width: 80px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #9BC607;
+}
+.relative-qa .wrapper-relative .relative-request ul {
+  margin-top: 30px;
+}
+.relative-qa .wrapper-relative .relative-request li {
+  margin: 15px 0;
+}
+.relative-qa .wrapper-relative .relative-request a {
+  font-size: 15px;
+  width: auto;
+  height: 16px;
+  float: left;
+}
+.relative-qa .wrapper-relative .relative-request span {
+  font-size: 15px;
+  color: #9BC607;
+  float: right;
+}
+.bottom {
+  height: 120px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+.bottom p:first-child {
+  color: #5F5F5F;
+  padding-top: 30px;
+  padding-bottom: 14px;
+  font-size: 13px;
+}
+.bottom p:last-child {
+  color: #5F5F5F;
+  font-size: 14px;
+}
+.bottom p:last-child span {
+  margin: 0px 10px 0px 10px;
+}
+.bottom p:last-child a {
+  color: inherit;
+}

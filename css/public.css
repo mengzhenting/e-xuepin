@@ -1,0 +1,6 @@
+.clearBoth::after{
+    content: "";
+    display: block;
+    clear: both;
+    
+}

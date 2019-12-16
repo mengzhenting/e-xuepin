@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1330568",
+      "name": "空间",
+      "font_class": "kongjian",
+      "unicode": "e73b",
+      "unicode_decimal": 59195
+    },
+    {
+      "icon_id": "1330569",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e73c",
+      "unicode_decimal": 59196
+    },
+    {
+      "icon_id": "2305511",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "4292622",
+      "name": "耳机",
+      "font_class": "erji",
+      "unicode": "e757",
+      "unicode_decimal": 59223
+    },
+    {
+      "icon_id": "5831385",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "6331948",
+      "name": "测试",
+      "font_class": "ceshi",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "6862089",
+      "name": "地址",
+      "font_class": "icon-test",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "6901607",
+      "name": "楼房",
+      "font_class": "loufang",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "7674865",
+      "name": "模块",
+      "font_class": "cedaohang-mokuai",
+      "unicode": "e711",
+      "unicode_decimal": 59153
+    },
+    {
+      "icon_id": "8820131",
+      "name": "举报",
+      "font_class": "jubao",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    }
+  ]
+}

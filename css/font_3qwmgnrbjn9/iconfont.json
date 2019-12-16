@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "848664",
+      "name": "赞 (1)",
+      "font_class": "zan1",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "1901652",
+      "name": "疑问",
+      "font_class": "yiwen",
+      "unicode": "f0304",
+      "unicode_decimal": 983812
+    },
+    {
+      "icon_id": "3205015",
+      "name": "五角星",
+      "font_class": "wujiaoxing-",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "8820131",
+      "name": "举报",
+      "font_class": "jubao",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    },
+    {
+      "icon_id": "11061561",
+      "name": "语音",
+      "font_class": "saying",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    }
+  ]
+}

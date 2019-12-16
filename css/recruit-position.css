@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  color: #545454;
+  text-decoration: none;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+  height: 90px;
+}
+header .logo {
+  margin-right: 105px;
+  float: left;
+  margin-top: 18px;
+}
+header .navigator {
+  overflow: hidden;
+  float: left;
+  line-height: 90px;
+}
+header .navigator li {
+  margin: 0 10px;
+  text-align: center;
+  width: 80px;
+  float: left;
+}
+header .navigator li .active {
+  color: #252525;
+  font-weight: bold;
+  border-bottom: 3px solid #9bc604;
+}
+header .navigator li a:hover {
+  color: #252525;
+  font-weight: bold;
+  /* border-bottom: 3px solid #9bc604; */
+}
+header .navigator li a {
+  display: block;
+  color: #545454;
+  height: 85px;
+  box-sizing: border-box;
+}
+header .login {
+  padding-right: 28px;
+  color: #999;
+  float: right;
+  line-height: 90px;
+}
+header .login a {
+  padding: 0 12px;
+  color: inherit;
+}
+.search-wrapper {
+  width: 100%;
+  padding-top: 40px;
+  box-sizing: border-box;
+  height: 300px;
+  padding-top: 70px;
+  text-align: center;
+}
+.search-wrapper .success {
+  display: block;
+  margin-top: 20px;
+}
+.search-wrapper .success .success-number {
+  display: inline-block;
+  color: #FF903E;
+}
+.search-wrapper .success-news {
+  margin-top: 10px;
+  color: #999;
+}
+.position-all {
+  height: 1000px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.position-all .position-number {
+  height: 40px;
+  width: 100%;
+}
+.position-all .position-number .position-list {
+  width: 80px;
+  float: left;
+  border-bottom: 2px solid #9BC604;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+}
+.position-all .position-number .position-right {
+  display: block;
+}
+.position-all .position-number .position-right .position-span {
+  float: right;
+  display: block;
+  font-size: 20px;
+  color: #545454;
+}
+.position-all .position-number .position-right .position-span .position-p {
+  display: block;
+  float: right;
+  color: #9BC604;
+}
+.position-all .position-number .position-right .position-span .position-p1 {
+  color: #545454;
+  float: right;
+  display: block;
+}
+.position-all .position-ul {
+  margin-top: 20px;
+}
+.position-all .position-ul .position-java {
+  height: 110px;
+  width: 1198px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #c5c2c2;
+}
+.position-all .position-ul .position-java .position-lists {
+  width: 300px;
+  height: 110px;
+  float: left;
+}
+.position-all .position-ul .position-java .position-lists h4 {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.position-all .position-ul .position-java .position-lists h4 .day {
+  padding-left: 10px;
+  color: #FF842A;
+}
+.position-all .position-ul .position-java .position-lists .position-date {
+  padding-left: 20px;
+  padding-top: 10px;
+  color: #999;
+  font-size: 14px;
+}
+.position-all .position-ul .position-java .position-img {
+  float: right;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.number {
+  height: 40px;
+  width: 800px;
+  margin: 0 auto;
+}
+.number .previous-page {
+  float: left;
+  height: 40px;
+  width: 100px;
+  display: block;
+  border: 1px solid #CCCCCC;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  color: #9bc604;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.number .number-some {
+  width: 10px;
+  height: 40px;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  color: #9bc604;
+  margin-right: 10px;
+}
+.number .number-page {
+  border-radius: 5px;
+  float: left;
+  margin-right: 10px;
+  height: 40px;
+  width: 50px;
+  display: block;
+  border: 1px solid #CCCCCC;
+  color: #9bc604;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+}
+.bottom {
+  height: 120px;
+  width: 100%;
+  background-color: black;
+  margin-top: 20px;
+  text-align: center;
+}
+.bottom p:first-child {
+  color: #5F5F5F;
+  padding-top: 30px;
+  padding-bottom: 14px;
+  font-size: 13px;
+}
+.bottom p:last-child {
+  color: #5F5F5F;
+  font-size: 14px;
+}
+.bottom p:last-child span {
+  margin: 0px 10px 0px 10px;
+}
+.bottom p:last-child a {
+  color: inherit;
+}
