@@ -46,12 +46,12 @@ export default {
         {
           id: 2,
           title: '课程管理',
-          to: '/password/allCourse/course'
+          to: '/password/allCourse/auditfailure'
         },
         {
           id: 3,
           title: '我的问答',
-          to: '/password/questions'
+          to: '/password/myreply'
         },
         {
           id: 4,

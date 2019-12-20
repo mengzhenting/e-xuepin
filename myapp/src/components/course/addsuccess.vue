@@ -18,7 +18,7 @@
       </p>
       <p class="title">{{lis.status}}</p>
       <p class="tip">{{lis.tip}}</p>
-      <p class="add">继续上传</p>
+      <router-link class="add" to="/password/allCourse/course">继续上传</router-link>
     </div>
   </div>
 </template>
@@ -122,6 +122,8 @@ export default {
       height: 44px;
       line-height: 44px;
       border-radius: 5px;
+      display: inline-block;
+      text-decoration: none;
       margin-top: 20px;
       background-color: #2af;
     }

@@ -7,8 +7,12 @@ import authentication from '../components/componentstwo/authentication'
 // import certified from '../components/componentstwo/certified'
 import information from '../components/componentstwo/information'
 import allCourse from '../components/course/allCourse'
+import auditfailure from '../components/course/auditfailure'
+import published from '../components/course/published'
+import reviewing from '../components/course/reviewing'
 import course from '../components/course/course'
 import edit from '../components/componentstwo/edit'
+import success from '../components/componentstwo/success'
 import aa from '../components/componentstwo/aa'
 import bb from '../components/componentstwo/bb'
 import cc from '../components/componentstwo/cc'
@@ -24,6 +28,8 @@ import login2 from '../components/publicstyle/login2.vue'
 import mobile from '../components/publicstyle/mobilelogin.vue'
 import myinfo from '../components/mymessage/myinfo.vue'
 import editinfo from '../components/mymessage/editinfo.vue'
+import myreply from '../components/answers/myreply.vue'
+import problem from '../components/answers/problem.vue'
 
 Vue.use(VueRouter)
 const routes = [
@@ -55,6 +61,14 @@ const routes = [
         component: questions
       },
       {
+        path: 'myreply',
+        component: myreply
+      },
+      {
+        path: 'problem',
+        component: problem
+      },
+      {
         path: 'income',
         component: income
       },
@@ -81,6 +95,18 @@ const routes = [
             path: 'course',
             name: 'course',
             component: course
+          },
+          {
+            path: 'auditfailure',
+            component: auditfailure
+          },
+          {
+            path: 'published',
+            component: published
+          },
+          {
+            path: 'reviewing',
+            component: reviewing
           }
         ]
       },
@@ -95,6 +121,10 @@ const routes = [
           {
             path: 'edit',
             component: edit
+          },
+          {
+            path: 'success',
+            component: success
           },
           {
             path: 'myinfo',

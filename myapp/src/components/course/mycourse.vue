@@ -26,13 +26,13 @@ export default {
           id: 1,
           title: '我的课程',
           icon: 'iconfont icon-kecheng',
-          to: '/password/sendclass'
+          to: '/password/allCourse/auditfailure'
         },
         {
           id: 2,
           title: '我的活动',
           icon: 'iconfont icon-laba',
-          to: '/password/information/authentication'
+          to: ''
         }
       ]
     }

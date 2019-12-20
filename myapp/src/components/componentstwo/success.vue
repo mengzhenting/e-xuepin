@@ -7,13 +7,13 @@
           <div class="img">
             <div class="img-title">
               <img src="../../assets/ren2.png" alt />
-              <span class="id">身份证 （正面）</span>
-              <span class="uncertified">【认证中】</span>
+              <span class="id">身份证（正面）</span>
+              <span class="uncertified">【认证成功】</span>
             </div>
             <div class="img-title">
               <img src="../../assets/ren3.png" alt />
-              <span class="id">身份证 （反面）</span>
-              <span class="uncertified">【认证中】</span>
+              <span class="id">身份证（反面）</span>
+              <span class="uncertified">【认证成功】</span>
             </div>
             <div class="real">
               <p class="real-id">请上传真实的身份证信息（正反面）</p>
@@ -24,7 +24,7 @@
             <div class="img-title">
               <img src="../../assets/ren4.png" alt />
               <span class="id">资质证明</span>
-              <span class="uncertified">【认证中】</span>
+              <span class="uncertified">【认证成功】</span>
             </div>
             <div class="real">
               <p class="real-id">请上传真实的身份证信息（正反面）</p>
@@ -46,7 +46,7 @@
             观察》[3]。2013年， 担任河北卫视情感谈话节目《情感大裁判》
             的主持人[4]。</textarea>
           <div class="modify">
-            <router-link to="success" class="confirm">确认修改</router-link>
+            <span class="confirm">确认修改</span>
             <router-link to="authentication" class="cancel">取消修改</router-link>
           </div>
         </div>
@@ -93,7 +93,7 @@ export default {
         }
         .uncertified {
           font-size: 13px;
-          color: red;
+          color: rgb(39, 248, 11);
         }
       }
       .real {
@@ -132,7 +132,7 @@ export default {
         }
         .uncertified {
           font-size: 13px;
-          color: red;
+          color: rgb(39, 248, 11);
         }
       }
       .real {
@@ -190,7 +190,6 @@ export default {
         display: inline-block;
         background-color: #00aaff;
         border: 1px solid #8d8d8d;
-        text-decoration: none;
         border-radius: 5px;
         margin-right: 20px;
         text-align: center;

@@ -10,11 +10,6 @@
               <span class="idd">{{item.idd}}</span>
               <span class="uncertified">{{item.uncertified}}</span>
             </div>
-            <!-- <div class="img-title">
-              <img :src="item.img" alt />
-              <span class="idd">身份证 （反面）</span>
-              <span class="uncertified">【未认证】</span>
-            </div>-->
             <div class="real">
               <p class="real-id">{{real}}</p>
               <p class="real-condition">{{condition}}</p>
